@@ -92,70 +92,70 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnTotal.setOnClickListener(this);
     }
 
-    public void finalP601(View v){
+    public void finalP601(View view){
         int par1P601 = Integer.parseInt(editP601_1.getText().toString());
         int par2P601 = Integer.parseInt(editP601_2.getText().toString());
         int par3P601 = Integer.parseInt(editP601_3.getText().toString());
         int finP601 = (par1P601 + par2P601 + par3P601)/3;
         txtP601.setText("Final: "+finP601);
     }
-    public void finalP602(View v){
+    public void finalP602(View view){
         int par1P602 = Integer.parseInt(editP602_1.getText().toString());
         int par2P602 = Integer.parseInt(editP602_2.getText().toString());
         int par3P602 = Integer.parseInt(editP602_3.getText().toString());
         int finP602 = (par1P602 + par2P602 + par3P602)/3;
         txtP602.setText("Final: "+finP602);
     }
-    public void finalP603(View v){
+    public void finalP603(View view){
         int par1P603 = Integer.parseInt(editP603_1.getText().toString());
         int par2P603 = Integer.parseInt(editP603_2.getText().toString());
         int par3P603 = Integer.parseInt(editP603_3.getText().toString());
         int finP603 = (par1P603 + par2P603 + par3P603)/3;
         txtP603.setText("Final: "+finP603);
     }
-    public void finalP604(View v){
+    public void finalP604(View view){
         int par1P604 = Integer.parseInt(editP604_1.getText().toString());
         int par2P604 = Integer.parseInt(editP604_2.getText().toString());
         int par3P604 = Integer.parseInt(editP604_3.getText().toString());
         int finP604 = (par1P604 + par2P604 + par3P604)/3;
         txtP604.setText("Final: "+finP604);
     }
-    public void finalP605(View v){
+    public void finalP605(View view){
         int par1P605 = Integer.parseInt(editP605_1.getText().toString());
         int par2P605 = Integer.parseInt(editP605_2.getText().toString());
         int par3P605 = Integer.parseInt(editP605_3.getText().toString());
         int finP605 = (par1P605 + par2P605 + par3P605)/3;
         txtP605.setText("Final: "+finP605);
     }
-    public void finalP606(View v){
+    public void finalP606(View view){
         int par1P606 = Integer.parseInt(editP606_1.getText().toString());
         int par2P606 = Integer.parseInt(editP606_2.getText().toString());
         int par3P606 = Integer.parseInt(editP606_3.getText().toString());
         int finP606 = (par1P606 + par2P606 + par3P606)/3;
         txtP606.setText("Final: "+finP606);
     }
-    public void finalP607(View v){
+    public void finalP607(View view){
         int par1P607 = Integer.parseInt(editP607_1.getText().toString());
         int par2P607 = Integer.parseInt(editP607_2.getText().toString());
         int par3P607 = Integer.parseInt(editP607_3.getText().toString());
         int finP607 = (par1P607 + par2P607 + par3P607)/3;
         txtP607.setText("Final: "+finP607);
     }
-    public void finalP608(View v){
+    public void finalP608(View view){
         int par1P608 = Integer.parseInt(editP608_1.getText().toString());
         int par2P608 = Integer.parseInt(editP608_2.getText().toString());
         int par3P608 = Integer.parseInt(editP608_3.getText().toString());
         int finP608 = (par1P608 + par2P608 + par3P608)/3;
         txtP608.setText("Final: "+finP608);
     }
-    public void finalP609(View v){
+    public void finalP609(View view){
         int par1P609 = Integer.parseInt(editP609_1.getText().toString());
         int par2P609 = Integer.parseInt(editP609_2.getText().toString());
         int par3P609 = Integer.parseInt(editP609_3.getText().toString());
         int finP609 = (par1P609 + par2P609 + par3P609)/3;
         txtP609.setText("Final: "+finP609);
     }
-    public void finalP610(View v){
+    public void finalP610(View view){
         int par1P610 = Integer.parseInt(editP610_1.getText().toString());
         int par2P610 = Integer.parseInt(editP610_2.getText().toString());
         int par3P610 = Integer.parseInt(editP610_3.getText().toString());
@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         txtP610.setText("Final: "+finP610);
     }
 
-    public void onClick(View v) {
+    public void onClick(View view) {
         int finalP601 = Integer.parseInt(txtP601.getText().toString());
         int finalP602 = Integer.parseInt(txtP602.getText().toString());
         int finalP603 = Integer.parseInt(txtP603.getText().toString());
